@@ -23,4 +23,8 @@
     <!-- Auto Face Unlock -->
     <string name="face_auto_unlock_title">Automatically unlock device</string>
     <string name="face_auto_unlock_summary">When face is recognized</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
