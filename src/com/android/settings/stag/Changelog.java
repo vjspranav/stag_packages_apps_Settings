@@ -1,5 +1,5 @@
 /*
-    Copyright (C) 2018 The KCUF Rom
+    Copyright (C) 2018 The StagOS
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
     limitations under the License.
  */
 
-package com.android.settings.kcuf;
+package com.android.settings.stag;
 
 import android.app.Fragment;
 import android.content.res.Resources;
@@ -50,7 +50,7 @@ public class Changelog extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.KCUF_SETTINGS;
+        return MetricsProto.MetricsEvent.STAG_SETTINGS;
     }
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";

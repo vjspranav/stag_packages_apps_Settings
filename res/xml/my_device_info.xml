@@ -33,7 +33,7 @@
         android:order="1"
         android:title="@string/changelog_title"
         android:summary="@string/changelog_summary"
-        android:fragment="com.android.settings.kcuf.Changelog" />
+        android:fragment="com.android.settings.stag.Changelog" />
 
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
