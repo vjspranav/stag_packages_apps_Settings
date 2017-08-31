@@ -23,5 +23,4 @@
         <item>@string/security_settings_fingerprint_enroll_find_sensor_message_left</item>
         <item>@string/security_settings_fingerprint_enroll_find_sensor_message_right</item>
     </string-array>
-
 </resources>
