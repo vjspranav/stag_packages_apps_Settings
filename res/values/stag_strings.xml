@@ -40,4 +40,12 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
+
+    <!-- Clang version -->
+    <string name="clang_version">Clang</string>
+    <string name="clang_version_default">Unknown</string>
+
+    <string name="dashboard_conditions_title">Dashboard conditions</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
 </resources>
