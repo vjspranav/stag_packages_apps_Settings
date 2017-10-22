@@ -26,4 +26,5 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
