@@ -67,4 +67,10 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+
+    <!-- SystemUI theme -->
+    <string name="systemui_theme_style_title">SystemUI Theme</string>
+    <string name="systemui_theme_style_auto">Automatic (Wallpaper based)</string>
+    <string name="systemui_theme_style_light">Light</string>
+    <string name="systemui_theme_style_dark">Dark</string>   
 </resources>
