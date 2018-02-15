@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.havoc;
+package com.android.settings.stag;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
