@@ -263,7 +263,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            StagSettings.class.getName()
+            StagSettings.class.getName(),
             HeadsUpSettings.class.getName()
     };
 
