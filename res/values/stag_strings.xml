@@ -19,4 +19,8 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- Auto Face Unlock -->
+    <string name="face_auto_unlock_title">Automatically unlock device</string>
+    <string name="face_auto_unlock_summary">When face is recognized</string>
 </resources>
