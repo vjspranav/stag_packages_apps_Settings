@@ -22,20 +22,15 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-   <LinearLayout
-        android:gravity="center"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:selectable="false">
-          <ImageView
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:src="@drawable/stagoslogo" 
-              android:scaleType="centerInside"
-              android:adjustViewBounds="true" />
-     </LinearLayout>
+    <!-- StagOS version -->
+    <Preference
+        android:key="stagos_version"
+        android:title="@string/stagos_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StagOSVersionDetailPreferenceController"/>
 
-    <!-- Android version -->
+    <!-- Android version --> 
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
@@ -73,6 +68,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+
+    <!-- Build date -->
+    <Preference
+        android:key="os_build_date"
+        android:title="@string/build_date"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StagOSBuildDatePreferenceController"/>
 
     <!-- Build -->
     <Preference
