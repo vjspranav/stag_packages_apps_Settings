@@ -56,10 +56,6 @@
     <string name="app_package_name_title">Package</string>
     <string name="app_version_title">Version</string>
 
-    <!-- OTA -->
-    <string name="kcufupdate_settings_title">KCUF updates</string>
-    <string name="kcufupdate_settings_summary">Find new updates</string>
-
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
