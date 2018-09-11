@@ -17,9 +17,16 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:key="system_dashboard_screen"
     android:title="@string/header_category_system"
     settings:initialExpandedChildrenCount="4">
+
+    <!-- KCUF Logo Header -->
+    <com.android.settings.widget.VideoPreference
+        android:key="kcuf_intro"
+        app:animation="@raw/kcuf_intro"
+        android:order="-999"/>
 
     <!-- Backup -->
     <Preference
