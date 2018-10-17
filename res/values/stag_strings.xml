@@ -76,4 +76,12 @@
     <string name="system_theme_style_black">Black</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qs_tile_style_default">Default</string>
+    <string name="qs_tile_style_circle_trim">Circle with trim</string>
+    <string name="qs_tile_style_two_tone_circle">Two-toned circle with trim</string>
+    <string name="qs_tile_style_squircle_trim">Squircle with trim</string>
+
 </resources>
