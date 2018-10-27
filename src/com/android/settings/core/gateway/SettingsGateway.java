@@ -137,7 +137,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.stagf.settings.StagSettings;
+import com.stag.settings.StagSettings;
 
 public class SettingsGateway {
 
