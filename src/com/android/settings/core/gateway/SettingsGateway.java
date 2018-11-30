@@ -140,6 +140,8 @@ import com.stag.settings.StagSettings;
 import com.stag.settings.fragments.HeadsUpSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.android.settings.custom.ambient.history.AmbientPlayHistory;
+
 public class SettingsGateway {
 
     /**
@@ -266,7 +268,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             StagSettings.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            AmbientPlayHistory.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
