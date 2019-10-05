@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+   <!-- StagOS logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="stagos_logo"
+        android:layout="@layout/stagos_logo"
+        android:selectable="false"/>
+
     <!-- StagOS version -->
     <Preference
         android:key="stagos_version"

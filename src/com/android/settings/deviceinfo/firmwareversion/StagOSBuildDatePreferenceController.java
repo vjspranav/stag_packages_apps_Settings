@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class PixysBuildDatePreferenceController extends BasePreferenceController {
+public class StagOSBuildDatePreferenceController extends BasePreferenceController {
 
     private static final String TAG = "StagBuildDateCtrl";
 
     private static final String KEY_BUILD_DATE_PROP = "ro.build.date";
 
-    public PixysBuildDatePreferenceController(Context context, String key) {
+    public StagOSBuildDatePreferenceController(Context context, String key) {
         super(context, key);
     }
 

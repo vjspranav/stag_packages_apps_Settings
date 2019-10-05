@@ -35,7 +35,7 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
-public class PixysVersionDetailPreferenceController extends BasePreferenceController {
+public class StagOSVersionDetailPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "StagOSVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
@@ -49,7 +49,7 @@ public class PixysVersionDetailPreferenceController extends BasePreferenceContro
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
 
-    public PixysVersionDetailPreferenceController(Context context, String key) {
+    public StagOSVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
         initializeAdminPermissions();
