@@ -3278,7 +3278,7 @@
         <!-- Horns -->
         <activity android:name=".Settings$HornsActivity"
             android:label="@string/horns_title"
-            android:icon="@drawable/ic_settings_horns"
+            android:icon="@drawable/ic_homepage_horns"
             android:taskAffinity="">
             <intent-filter android:priority="1">
                 <action android:name="com.stag.horns.Horns" />
