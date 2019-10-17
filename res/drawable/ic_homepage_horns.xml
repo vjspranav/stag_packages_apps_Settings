@@ -15,15 +15,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item>
-        <shape android:shape="oval">
-            <gradient
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
                 android:startColor="@color/dashboard_system_accent_start"
-		android:endColor="@color/dashboard_system_accent_follow" />
-
-            <size
+		android:endColor="@color/dashboard_system_accent_follow" 
                 android:width="@dimen/dashboard_tile_image_size"
                 android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
     </item>
 
     <item
