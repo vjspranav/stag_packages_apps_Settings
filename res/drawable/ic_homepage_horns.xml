@@ -16,8 +16,7 @@
 
     <item>
         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-                android:startColor="@color/dashboard_system_accent_start"
-		android:endColor="@color/dashboard_system_accent_follow" 
+                android:color="@color/dashboard_system_accent_start"
                 android:width="@dimen/dashboard_tile_image_size"
                 android:height="@dimen/dashboard_tile_image_size" />
     </item>
