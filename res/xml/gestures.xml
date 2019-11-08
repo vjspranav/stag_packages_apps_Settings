@@ -46,12 +46,6 @@
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
 
     <Preference
-        android:key="gesture_system_navigation_input_summary"
-        android:title="@string/system_navigation_title"
-        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
-        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
-
-    <Preference
         android:key="gesture_tap_screen_input_summary"
         android:title="@string/ambient_display_tap_screen_title"
         android:fragment="com.android.settings.gestures.TapScreenGestureSettings"
@@ -68,12 +62,6 @@
         android:title="@string/ambient_display_pickup_title"
         android:fragment="com.android.settings.gestures.PickupGestureSettings"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
-
-    <Preference
-        android:key="gesture_prevent_ringing_summary"
-        android:title="@string/gesture_prevent_ringing_screen_title"
-        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <Preference
         android:key="gesture_global_actions_panel_summary"
